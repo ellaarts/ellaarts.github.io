@@ -113,8 +113,8 @@ theme: hexo-theme-matery
 
 deploy:
   type: git
-  # repo: https://github.com/blinkfox/blinkfox.github.io.git
-  repo: https://github.com/ellaarts/ellaarts.github.io.git
+  # repo: https://github.com/ellaarts/ellaarts.github.io.git
+  repo: git@github.com/ellaarts/ellaarts.github.io.git
   branch: main
   name: ellaarts
   email: ellaarts@outlook.com
