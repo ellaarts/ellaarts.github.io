@@ -103,11 +103,19 @@ theme: hexo-theme-matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# deploy:
+#   type: git
+#   # repo: https://github.com/blinkfox/blinkfox.github.io.git
+#   repo: https://github.com/ellaarts/blog
+#   branch: gh-pages
+#   name: ellaarts
+#   email: ellaarts@outlook.com
+
 deploy:
   type: git
   # repo: https://github.com/blinkfox/blinkfox.github.io.git
-  repo: https://github.com/ellaarts/blog
-  branch: gh-pages
+  repo: https://github.com/ellaarts/ellaarts.github.io.git
+  branch: main
   name: ellaarts
   email: ellaarts@outlook.com
 

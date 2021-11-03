@@ -3,15 +3,15 @@ name: CI
 on:
   push:
     branches:
-      - source
+      - master
 
 env:
   GIT_USER: ellaarts
   GIT_EMAIL: ellaarts@outlook.com
   # THEME_REPO: sanonz/hexo-theme-concise
   # THEME_BRANCH: master
-  DEPLOY_REPO: ellaarts/blog
-  DEPLOY_BRANCH: gh-pages
+  DEPLOY_REPO: ellaarts/ellaarts.github.io
+  DEPLOY_BRANCH: main
 
 jobs:
   build:
@@ -47,7 +47,7 @@ jobs:
 
       - name: Configuration environment
         env:
-          HEXO_DEPLOY_PRI: ${{secrets.DEPLOY_KEY}}
+          HEXO_DEPLOY_PRI: ${{secrets.HEXO_DEPLOY_PRI}}
         run: |
           sudo timedatectl set-timezone "Asia/Shanghai"
           mkdir -p ~/.ssh/
