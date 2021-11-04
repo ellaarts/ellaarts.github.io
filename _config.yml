@@ -116,8 +116,8 @@ deploy:
   # repo: https://github.com/ellaarts/ellaarts.github.io.git
   repo: git@github.com:ellaarts/ellaarts.github.io.git # for github action
   branch: main
-  name: ellaarts
-  email: ellaarts@outlook.com
+  # name: ellaarts
+  # email: ellaarts@outlook.com
 
 # search
 search:

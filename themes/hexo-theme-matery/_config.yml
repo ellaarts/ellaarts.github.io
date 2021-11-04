@@ -355,10 +355,12 @@ valine:
   appKey: HyInag5HvCWaTlr7XHeLrcmY
   notify: false
   verify: false
-  visitor: true
-  avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  visitor: false
+  avatar: 'robohash' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  # avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   pageSize: 10
   placeholder: 'Leave your comments here :-)' # Comment Box placeholder
+  guest_info: nick,mail
   background: /medias/comment_bg.png
   coolpushkey:
 
