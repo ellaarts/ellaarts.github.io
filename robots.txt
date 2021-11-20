@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://taobao-portal.com/sitemap.xml
+Sitemap: https://taobao-portal.com/baidusitemap.xml
